@@ -1,0 +1,107 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\anaconda\\python.exe",
+    "editor.minimap.enabled": true,
+    "debug.console.fontSize": 20,
+    "editor.fontSize": 18,
+    "workbench.colorTheme": "Visual Studio Light",
+    "debug.console.fontFamily": "consolas",
+    // "terminal.integrated.fontFamily": "微软雅黑",
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoGuessEncoding": true,
+    "files.encoding": "gb18030",
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.fontSize": 18,
+    "python.linting.flake8Args": [
+        "--max-line-length=248",
+        "--ignore=E265, W503"
+    ],
+    "files.autoSave": "afterDelay",    
+    "remote.SSH.path": "C:\\Users\\T90690\\AppData\\Local\\Programs\\Git\\usr\\bin\\ssh.exe",
+    "remote.SSH.remotePlatform": {
+        "hadoopvisitor_on_52.57": "linux"
+    },
+    "git.ignoreLegacyWarning": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "tabnine.experimentalAutoImports": true,
+    "vsnotes.defaultNotePath": "V:\\Markdown",
+    
+    "vsnotes.defaultNoteTitle": "{title}.{ext}",
+    "files.autoSave": "afterDelay",
+    // vsnote configurations
+    "vsnotes.defaultSnippet": {
+        "langId": "markdown",
+        "name": "vsnote"
+    },
+    "vsnotes.templates": [
+        "common",
+        "meeting",
+        "case",
+        "draft"
+    ],
+    "markdown.preview.fontFamily": " 'Consolas', '微软雅黑', 'Ubuntu', 'Droid Sans', sans-serif",
+    "vsnotes.tokens": [
+        {
+            "type": "datetime",
+            "token": "{dt}",
+            "format": "YYYY-MM-DD",
+            "description": "Insert formatted datetime."
+        },
+        {
+            "type": "title",
+            "token": "{title}",
+            "description": "Insert note title from input box.",
+            "format": "Untitled"
+        },
+        {
+            "type": "extension",
+            "token": "{ext}",
+            "description": "Insert file vsnotes.",
+            "format": "md"
+        }
+    ],
+    "vsnotes.additionalNoteTitles": [
+        "meeting notes/{dt}_{title}.{ext}",
+        "abbreviation/{title}.{ext}",
+        "code template/{title}.{ext}",
+        "debug/{title}.{ext}",
+        "big data/{title}.{ext}",
+        "book/{title}.{ext}",
+        "case/{dt}_{title}.{ext}",
+        "life/{dt}_{title}.{ext}",
+        "math/{title}.{ext}",
+        "paper/{title}.{ext}",
+        "project/{title}.{ext}",
+        "semiconductor/{title}.{ext}",
+        "tool polishing/{title}.{ext}",
+        "ppt/{title}.{ext}",
+        "draft/{dt}{title}.py",
+        "IAD/{title}.py",
+        "english/{dt}.{ext}",
+        "course/{title}.{ext}",
+        "draft/{dt}{title}.sql"
+    ],
+
+    // "markdown.styles": [
+    //     "http://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    // ],
+    "terminal.integrated.inheritEnv": false,
+    "editor.codeActionsOnSave": null,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "Consolas, 微软雅黑, 'Courier New', monospace",
+    "pasteImage.path": "V:/Markdown/fig",
+    "pasteImage.basePath": "V:/Markdown",
+    "pasteImage.insertPattern": "${imageSyntaxPrefix}V:/Markdown/${imageFilePath}${imageSyntaxSuffix}",
+
+    "markdown-pdf.highlightStyle": "tomorrow-night-bright.css",
+    "markdown-preview-enhanced.codeBlockTheme": "one-light.css",
+    "markdown-preview-enhanced.mermaidTheme": "forest",
+    "markdown-preview-enhanced.revealjsTheme": "solarized.css",
+    "markdown-preview-enhanced.frontMatterRenderingOption": "code block",
+    "markdown-preview-enhanced.previewTheme": "medium.css"
+
+    
+}
